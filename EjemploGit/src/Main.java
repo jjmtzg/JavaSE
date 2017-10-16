@@ -11,7 +11,10 @@ public class Main
 		double x1,x2;
 		System.out.println((x1=((-b)+Math.sqrt((b^2)-(4*a*c)))/(2*a))+"\n"+
 				(x2=((-b)-Math.sqrt((b^2)-(4*a*c)))/(2*a)));*/
-		ManejoString s=new ManejoString();
+		//ManejoString s=new ManejoString();
+		//ManejoArray a=new ManejoArray();
+		ManejoEstructuraControl cntrl=new ManejoEstructuraControl();
+		cntrl.ManejoElseIf();
 	}
 
 }
