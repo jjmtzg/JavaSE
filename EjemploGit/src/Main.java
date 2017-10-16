@@ -1,4 +1,5 @@
 
+
 public class Main 
 {
 	public static void main(String[] args)
@@ -14,7 +15,9 @@ public class Main
 		//ManejoString s=new ManejoString();
 		//ManejoArray a=new ManejoArray();
 		ManejoEstructuraControl cntrl=new ManejoEstructuraControl();
-		cntrl.ManejoElseIf();
+		//cntrl.ManejoIf();
+		//cntrl.ManejoElseIf();
+		cntrl.ManejoCase();
 	}
 
 }

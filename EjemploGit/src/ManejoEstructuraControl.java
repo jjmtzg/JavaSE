@@ -1,9 +1,14 @@
+import java.util.Scanner;
 
 public class ManejoEstructuraControl 
 
 {
 	private boolean b,c;
 	public ManejoEstructuraControl() 
+	{
+		
+	}
+	public void ManejoIf()
 	{
 		b=true;
 		c=false;
@@ -30,5 +35,34 @@ public class ManejoEstructuraControl
 		else
 			System.out.println("Ni Modo");
 	}
-
+	public void ManejoCase()
+	{
+		Scanner sc=new Scanner(System.in);
+		String cad="";
+		String opc="";
+		do
+		{
+			System.out.println("Escriba el caso");
+			cad=sc.nextLine();
+			switch(cad.toLowerCase())
+			{
+				case"chana":
+					System.out.println("Chana!");
+					break;
+				case"juana":
+					System.out.println("Juana!");
+					break;
+				case"chona":
+					System.out.println("Chona!");
+					break;
+				default:
+					System.out.println("Ninguno compa");
+					break;
+			}
+			System.out.println("Quiere Continuar y/n");
+			opc=sc.nextLine();
+		}while(!(opc.equals("n")));
+		System.err.println("Salimos...");
+		sc.close();
+	}
 }
