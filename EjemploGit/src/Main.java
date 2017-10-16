@@ -14,10 +14,13 @@ public class Main
 				(x2=((-b)-Math.sqrt((b^2)-(4*a*c)))/(2*a)));*/
 		//ManejoString s=new ManejoString();
 		//ManejoArray a=new ManejoArray();
-		ManejoEstructuraControl cntrl=new ManejoEstructuraControl();
+		//ManejoEstructuraControl cntrl=new ManejoEstructuraControl();
 		//cntrl.ManejoIf();
 		//cntrl.ManejoElseIf();
-		cntrl.ManejoCase();
+		//cntrl.ManejoCase();
+		ManejoCiclo cl=new ManejoCiclo();
+		//cl.While();
+		cl.cuentaLetras(7);
 	}
 
 }
