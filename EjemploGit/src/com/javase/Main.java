@@ -8,6 +8,7 @@ import com.javase.ejemplo.objeto.Estudiante;
 
 public class Main 
 {
+	public static String id;
 	public static void main(String[] args)
 	{
 		/*String cad1="",cad2="s";
@@ -34,8 +35,14 @@ public class Main
 		//e.setCodigo(378);
 		//e.setNombre("Juancho");
 		//System.out.println(e.getCodigo()+e.getNombre());
-		Estudiante e = new Estudiante(123,"holo");
-		System.out.println(e.getCodigo()+e.getNombre());
+		//Estudiante e = new Estudiante(123,"holo");
+		//System.out.println(e.getCodigo()+e.getNombre());
+		probarEstatico();
+	}
+	public static void probarEstatico()
+	{
+		id="999999";
+		System.out.println(id);
 	}
 
 }
