@@ -18,9 +18,12 @@ public class Main
 		//cntrl.ManejoIf();
 		//cntrl.ManejoElseIf();
 		//cntrl.ManejoCase();
-		ManejoCiclo cl=new ManejoCiclo();
+		//ManejoCiclo cl=new ManejoCiclo();
 		//cl.While();
-		cl.cuentaLetras(7);
+		//cl.cuentaLetras(7);
+		ManejoExcepciones ex=new ManejoExcepciones();
+		//ex.punteroNulo();
+		ex.fueraDeLimite();
 	}
 
 }
