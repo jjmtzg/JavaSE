@@ -1,4 +1,4 @@
-package fechas;
+package com.javase.valores.fechas;
 
 public class MesesYDias {
 	public static final String[] MESES_ABREVIADOS={"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"};

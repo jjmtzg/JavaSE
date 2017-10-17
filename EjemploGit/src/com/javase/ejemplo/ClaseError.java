@@ -1,3 +1,4 @@
+package com.javase.ejemplo;
 
 public class ClaseError {
 

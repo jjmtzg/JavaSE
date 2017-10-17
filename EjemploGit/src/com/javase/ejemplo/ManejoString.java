@@ -1,7 +1,8 @@
+package com.javase.ejemplo;
 
 public class ManejoString {
 
-	ManejoString()
+	public ManejoString()
 	{
 		String cadena="Parangaricutirimicuaro";
 		System.out.println(cadena);

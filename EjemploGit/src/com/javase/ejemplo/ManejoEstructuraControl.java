@@ -1,3 +1,4 @@
+package com.javase.ejemplo;
 import java.util.Scanner;
 
 public class ManejoEstructuraControl 

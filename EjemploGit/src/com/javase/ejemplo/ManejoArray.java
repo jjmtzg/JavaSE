@@ -1,5 +1,6 @@
-import static fechas.MesesYDias.MESES_ABREVIADOS;
-import static fechas.MesesYDias.SEM_ABREVIADOS;
+package com.javase.ejemplo;
+import static com.javase.valores.fechas.MesesYDias.MESES_ABREVIADOS;
+import static com.javase.valores.fechas.MesesYDias.SEM_ABREVIADOS;
 /*
  * Mostrar en enero julio noviembre diciembre y lunes viernes martes
  */

@@ -1,4 +1,10 @@
-
+package com.javase;
+//import com.javase.ejemplo.ManejoArray;
+//import com.javase.ejemplo.ManejoCiclo;
+//import com.javase.ejemplo.ManejoEstructuraControl;
+//import com.javase.ejemplo.ManejoExcepciones;
+//import com.javase.ejemplo.ManejoString;
+import com.javase.ejemplo.objeto.Estudiante;
 
 public class Main 
 {
@@ -21,9 +27,15 @@ public class Main
 		//ManejoCiclo cl=new ManejoCiclo();
 		//cl.While();
 		//cl.cuentaLetras(7);
-		ManejoExcepciones ex=new ManejoExcepciones();
+		//ManejoExcepciones ex=new ManejoExcepciones();
 		//ex.punteroNulo();
-		ex.fueraDeLimite();
+		//ex.fueraDeLimite();
+		//Estudiante e=new Estudiante();
+		//e.setCodigo(378);
+		//e.setNombre("Juancho");
+		//System.out.println(e.getCodigo()+e.getNombre());
+		Estudiante e = new Estudiante(123,"holo");
+		System.out.println(e.getCodigo()+e.getNombre());
 	}
 
 }

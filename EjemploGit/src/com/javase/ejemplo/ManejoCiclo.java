@@ -1,13 +1,16 @@
-import static fechas.MesesYDias.MESES;
-public class ManejoCiclo {
+package com.javase.ejemplo;
+import static com.javase.valores.fechas.MesesYDias.MESES;
+public class ManejoCiclo 
+{
 
-	public ManejoCiclo() {
+	public ManejoCiclo() 
+	{
 	}
-	void For()
+	public void For()
 	{
 		
 	}
-	void While()
+	public void While()
 	{
 		int i=0;
 		while(i<MESES.length)
@@ -16,7 +19,7 @@ public class ManejoCiclo {
 			i++;
 		}
 	}
-	void cuentaLetras(int numeroDeLetras)
+	public void cuentaLetras(int numeroDeLetras)
 	{
 		for(int i=0;i<MESES.length;i++)
 		{

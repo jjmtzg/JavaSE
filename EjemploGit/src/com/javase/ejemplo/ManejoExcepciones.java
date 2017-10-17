@@ -1,12 +1,13 @@
-import static fechas.MesesYDias.MESES;
+package com.javase.ejemplo;
+import static com.javase.valores.fechas.MesesYDias.MESES;
 
-import java.io.IOException;
-import java.util.Scanner;
-public class ManejoExcepciones {
+public class ManejoExcepciones 
+{
 	ClaseError err;
-	public ManejoExcepciones() {
+	public ManejoExcepciones() 
+	{
 	}
-	void punteroNulo()
+	public void punteroNulo()
 	{
 		try
 		{
@@ -19,7 +20,7 @@ public class ManejoExcepciones {
 		}
 		System.out.println("Ya sali prros a donde vamos o khe");
 	}
-	void fueraDeLimite()
+	public void fueraDeLimite()
 	{
 		try
 		{
@@ -36,7 +37,7 @@ public class ManejoExcepciones {
 		}
 		System.out.println("Ya sali prros a donde vamos o khe");
 	}
-	void formatoIncorrecto()
+	public void formatoIncorrecto()
 	{
 		try
 		{
@@ -45,7 +46,7 @@ public class ManejoExcepciones {
 			
 		}
 	}
-	void convertirClase()
+	public void convertirClase()
 	{
 
 		try
