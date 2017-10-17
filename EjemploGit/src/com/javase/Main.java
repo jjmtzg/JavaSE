@@ -1,14 +1,8 @@
 package com.javase;
-//import com.javase.ejemplo.ManejoArray;
-//import com.javase.ejemplo.ManejoCiclo;
-//import com.javase.ejemplo.ManejoEstructuraControl;
-//import com.javase.ejemplo.ManejoExcepciones;
-//import com.javase.ejemplo.ManejoString;
-import com.javase.ejemplo.objeto.Estudiante;
-
+import com.javase.ejemplo.modificador.Modificadores;
 public class Main 
 {
-	public static String id;
+	public static long id;
 	public static void main(String[] args)
 	{
 		/*String cad1="",cad2="s";
@@ -37,12 +31,8 @@ public class Main
 		//System.out.println(e.getCodigo()+e.getNombre());
 		//Estudiante e = new Estudiante(123,"holo");
 		//System.out.println(e.getCodigo()+e.getNombre());
-		probarEstatico();
+		Modificadores.tipoEstatico();
 	}
-	public static void probarEstatico()
-	{
-		id="999999";
-		System.out.println(id);
-	}
-
+	
+	
 }
