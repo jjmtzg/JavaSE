@@ -1,8 +1,12 @@
 package com.javase;
 
+import com.javase.codefight.tournament;
 import com.javase.ejemplo.herencia.Garfield;
 //import com.javase.ejemplo.herencia.Animal;
 import com.javase.ejemplo.herencia.Nermal;
+import com.javase.ejemplo.herencia.pokemon.Pokedex;
+import com.javase.ejemplo.herencia.pokemon.Pokemon;
+import com.javase.ejemplo.herencia.pokemon.tipo.Electrico;
 
 //import com.javase.codefight.KathoVsSuperMario;
 //import com.javase.ejemplo.modificador.Modificadores;
@@ -45,11 +49,18 @@ public class Main
 		//o.comer();
 		//o.dormir();
 		//o.ladrar();//
-		Garfield g=new Garfield();
-		g.comer();
-		g.comer("Lasagna");
-		Nermal n=new Nermal();
-		n.molestar(g.getNombre());
+		//Garfield g=new Garfield();
+		//g.comer();
+		//g.comer("Lasagna");
+		//Nermal n=new Nermal();
+		//n.molestar(g.getNombre());
+		Electrico pkm=new Electrico("Picachu");
+		Pokedex pkdx=new Pokedex(pkm);
+		int[] a={2,5},b={3,6},c={0,0};
+		tournament t=new tournament();
+		//c[0]=t.fractionDivision(a, b)[0];
+		//c[1]=t.fractionDivision(a, b)[1];
+		//System.out.println(c[0]+"f"+c[1]);
 	}
 	
 	

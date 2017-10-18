@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.1" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Hielo" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Hielo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="-449" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Acero" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Acero.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="-218" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Dragon" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Dragon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="13" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.javase.ejemplo.herencia.pokemon.Pokedex" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/Pokedex.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="173" x="123" y="-123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Hada" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Hada.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="244" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Normal" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Normal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="475" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.javase.ejemplo.herencia.pokemon.Pokemon" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/Pokemon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="567" width="173" x="1630" y="-123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Siniestro" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Siniestro.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="706" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Unknown" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Unknown.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="937" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Pelea" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Pelea.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="1168" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Agua" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Agua.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="1399" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Electrico" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Electrico.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="191" x="1630" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Veneno" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Veneno.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="1861" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Bicho" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Bicho.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="2092" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Fuego" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Fuego.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="2323" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Tierra" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Tierra.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="2554" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Psiquico" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Psiquico.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="2785" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Volador" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Volador.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="3016" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Fantasma" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Fantasma.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="3247" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.javase.Main" project="EjemploGit" file="/EjemploGit/src/com/javase/Main.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="113" x="907" y="-123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Planta" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Planta.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="3478" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.javase.ejemplo.herencia.pokemon.tipo.Roca" project="EjemploGit" 
+    file="/EjemploGit/src/com/javase/ejemplo/herencia/pokemon/tipo/Roca.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="191" x="3709" y="484"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="27">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="31">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="35">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="41">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
