@@ -1,5 +1,6 @@
 package com.javase;
-import com.javase.ejemplo.modificador.Modificadores;
+import com.javase.codefight.KathoVsSuperMario;
+//import com.javase.ejemplo.modificador.Modificadores;
 public class Main 
 {
 	public static long id;
@@ -31,7 +32,10 @@ public class Main
 		//System.out.println(e.getCodigo()+e.getNombre());
 		//Estudiante e = new Estudiante(123,"holo");
 		//System.out.println(e.getCodigo()+e.getNombre());
-		Modificadores.tipoEstatico();
+		//Modificadores.tipoEstatico();
+		KathoVsSuperMario vs=new KathoVsSuperMario();
+		int[]time={0,5},time2={1,0};
+		System.out.println(vs.isEarlier(time,time2 ));
 	}
 	
 	
