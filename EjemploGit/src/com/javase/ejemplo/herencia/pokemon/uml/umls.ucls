@@ -174,7 +174,7 @@
   </class>  
   <class id="20" language="java" name="com.javase.Main" project="EjemploGit" file="/EjemploGit/src/com/javase/Main.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="113" x="907" y="-123"/>    
+    <position height="-1" width="-1" x="1714" y="-216"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
