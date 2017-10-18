@@ -44,7 +44,7 @@ public class Main
 		//Oddie o=new Oddie();
 		//o.comer();
 		//o.dormir();
-		//o.ladrar();
+		//o.ladrar();//
 		Garfield g=new Garfield();
 		g.comer();
 		g.comer("Lasagna");

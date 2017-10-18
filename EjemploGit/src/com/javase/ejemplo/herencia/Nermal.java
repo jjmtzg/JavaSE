@@ -15,3 +15,4 @@ public class Nermal extends Animal
 			System.out.println("Ñol");
 	}
 }
+ 

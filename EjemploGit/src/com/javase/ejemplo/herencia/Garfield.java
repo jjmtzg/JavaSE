@@ -26,4 +26,4 @@ public class Garfield extends Animal
 	{
 		this.nombre = nombre;
 	}
-}
+} 
