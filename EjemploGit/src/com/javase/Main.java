@@ -1,5 +1,10 @@
 package com.javase;
-import com.javase.codefight.KathoVsSuperMario;
+
+import com.javase.ejemplo.herencia.Garfield;
+//import com.javase.ejemplo.herencia.Animal;
+import com.javase.ejemplo.herencia.Nermal;
+
+//import com.javase.codefight.KathoVsSuperMario;
 //import com.javase.ejemplo.modificador.Modificadores;
 public class Main 
 {
@@ -33,9 +38,18 @@ public class Main
 		//Estudiante e = new Estudiante(123,"holo");
 		//System.out.println(e.getCodigo()+e.getNombre());
 		//Modificadores.tipoEstatico();
-		KathoVsSuperMario vs=new KathoVsSuperMario();
-		int[]time={0,5},time2={1,0};
-		System.out.println(vs.isEarlier(time,time2 ));
+		//KathoVsSuperMario vs=new KathoVsSuperMario();
+		//int[]time={0,5},time2={1,0};
+		//System.out.println(vs.isEarlier(time,time2 ));
+		//Oddie o=new Oddie();
+		//o.comer();
+		//o.dormir();
+		//o.ladrar();
+		Garfield g=new Garfield();
+		g.comer();
+		g.comer("Lasagna");
+		Nermal n=new Nermal();
+		n.molestar(g.getNombre());
 	}
 	
 	
