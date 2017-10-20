@@ -1,8 +1,8 @@
 package com.javase.ejemplo.herencia.venta.fruta;
 
-import com.javase.ejemplo.herencia.venta.Frutas;
+import com.javase.ejemplo.herencia.venta.Fruta;
 
-public class Banana extends Frutas
+public class Banana extends Fruta
 {
 
 	public Banana() 
@@ -10,4 +10,11 @@ public class Banana extends Frutas
 		
 	}
 
+	@Override
+	public void descomponer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 }

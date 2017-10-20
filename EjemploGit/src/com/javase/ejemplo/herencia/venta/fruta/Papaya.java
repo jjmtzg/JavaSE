@@ -1,8 +1,8 @@
 package com.javase.ejemplo.herencia.venta.fruta;
 
-import com.javase.ejemplo.herencia.venta.Frutas;
+import com.javase.ejemplo.herencia.venta.Fruta;
 
-public class Papaya extends Frutas
+public class Papaya extends Fruta
 {
 	private int semillas;
 	public Papaya() 
@@ -16,6 +16,10 @@ public class Papaya extends Frutas
 	public void setSemillas(int semillas) 
 	{
 		this.semillas = semillas;
+	}
+	public void descomponer() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

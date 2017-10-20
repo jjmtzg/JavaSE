@@ -1,13 +1,15 @@
 package com.javase.ejemplo.herencia.venta;
 
-public class Frutas 
+public abstract class Fruta 
 {
 	private String color;
 	private String tamanio;
 	private int expiracion; 
-	public Frutas()
+	public Fruta()
 	{
-		// TODO Auto-generated constructor stub
+		color="S/C";
+		tamanio="N/A";
+		expiracion=0;
 	}
 	public String getColor() 
 	{
@@ -33,5 +35,5 @@ public class Frutas
 	{
 		this.expiracion = expiracion;
 	}
-
+	public abstract void descomponer();
 }
