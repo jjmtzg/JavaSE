@@ -2,6 +2,9 @@ package com.javase;
 
 import java.util.Scanner;
 
+import com.javase.ejemplo.herencia.venta.Clavija;
+import com.javase.ejemplo.lambda.Prueba;
+
 //import java.util.ArrayList;
 //import java.util.HashMap;
 //import java.util.Hashtable;
@@ -177,14 +180,40 @@ public class Main
 		int algo=lector.nextInt();
 		assert algo>=60:"Estas Shavo shavo";
 		System.out.println("Value of"+algo);*/
-		for(Mi m:Mi.values())
+		/*for(Mi m:Mi.values())
 		{
 			System.out.println(m);
-		}
+		}*/
+		//Sin Lambda
+		Clavija miClavija=new Clavija() 
+		{
+			@Override
+			public void conectarse() 
+			{
+				// TODO Auto-generated method stub
+				System.out.println("Sin lloLambda");
+			}
+		};
+		miClavija.conectarse();
+		
+		//Con Lambda
+		Clavija miClavija2=()->
+		{
+			System.out.println("Maricarmen");
+			
+		};
+		miClavija2.conectarse();
+		Prueba prueba=algo->
+		{
+			return algo;
+		};
+		System.out.println("Otra clase\n"+prueba.algoMas("Mica.\nMica?\nMi Cadena jajajaja"));
 	}
+	
+	/*
 	public enum Mi
 	{
 		LUNES, MARTES, MIERCOLES, JUEVES, SABADO, DOMINGO
-	}
+	}*/
 	
 }
