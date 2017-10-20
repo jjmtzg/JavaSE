@@ -1,7 +1,10 @@
 package com.javase;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Vector;
 
 //import com.javase.codefight.tournament;
@@ -85,7 +88,7 @@ public class Main
 		/*Vector<Fruta> vect=new Vector<>();
 		vect.add(banana);
 		System.out.println(vect.elementAt(0).getExpiracion());*/
-		for (int i = 0; i < 1; i++) 
+		for (int i = 0; i < 10; i++) 
 		{
 			listaFruta.add(papaya);
 			listaFruta.add(sandia);
@@ -98,7 +101,7 @@ public class Main
 		Iterator<Fruta> itr=listaFruta.iterator();
 		String cad="";
 		int i=0;
-		while(itr.hasNext())
+		/*while(itr.hasNext())
 		{
 			Object itr2=(itr.next());
 			cad=(itr2.getClass().getName().substring(1+itr2.getClass().getName().lastIndexOf(".")));
@@ -109,9 +112,27 @@ public class Main
 			else
 				System.out.println("Semillas: "+((Papaya)listaFruta.get(i)).getSemillas());
 			i++;
-		}
+		}*/
 		listaFruta.add(sandia);
-		System.out.println("Cantidad Frutas: "+listaFruta.size());
+		//System.out.println("Cantidad Frutas: "+listaFruta.size());
+		/*HashMap<Integer, String> miMapa = new HashMap<Integer,String>();
+		miMapa.put(100, "Chana");
+		miMapa.put(101, "Juana");
+		miMapa.put(102, "Primitivo");
+		miMapa.put(103, "Primitivo");
+		for (Map.Entry entry : miMapa.entrySet()) 
+		{
+			System.out.println("Entrada"+entry.getKey()+" : "+entry.getValue());
+		}*/
+		Hashtable<Integer, String> hashtable=new Hashtable<Integer,String>();
+		hashtable.put(100, "Chana");
+		hashtable.put(101, "Juana");
+		hashtable.put(102, "Primitivo");
+		hashtable.put(103, "Primitivo");
+		for(Map.Entry entrada:hashtable.entrySet())
+		{
+			System.out.println("Llave"+entrada.getKey()+"Valor"+entrada.getValue());
+		}
 		//Papaya papaya=new Papaya();
 		//papaya.setExpiracion(5);
 		//Papaya papayadif=new Papaya();
