@@ -1,10 +1,13 @@
 package com.javase;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 import com.javase.ejemplo.herencia.venta.Clavija;
 import com.javase.ejemplo.herencia.venta.fruta.Papaya;
+import com.javase.ejemplo.lambda.Producto;
 import com.javase.ejemplo.lambda.Prueba;
 
 //import java.util.ArrayList;
@@ -210,7 +213,7 @@ public class Main
 			return algo;
 		};
 		System.out.println("Otra clase\n"+prueba.algoMas("Mica.\nMica?\nMi Cadena jajajaja"));*/
-		Papaya papayas=new Papaya();
+		/*Papaya papayas=new Papaya();
 		ArrayList<Papaya> lista=new ArrayList<Papaya>();
 		for (int i = 0; i < 1000; i++) 
 		{
@@ -220,6 +223,17 @@ public class Main
 		{
 			System.out.println(n.getExpiracion());
 			System.out.println(n.getColor());
+		});*/
+		List<Producto> productos=new ArrayList<Producto>();
+		productos.add(new Producto(1,"Banana",12));
+		productos.add(new Producto(2,"Manzana",4));
+		productos.add(new Producto(3,"Berenjena",20));
+		System.out.println("Ordenando la coleccion en base a parametro de nombre creo espero y confio");
+		Collections.sort(productos,(p1,p2)->{
+			return String.valueOf(p1.nombre).compareTo(String.valueOf(p2.nombre));
+		});
+		productos.forEach(p->{
+			System.out.println("Producto"+p.id+" : "+p.nombre+" : "+p.precio);
 		});
 	}
 	
