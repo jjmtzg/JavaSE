@@ -27,6 +27,7 @@ import java.util.Scanner;
 public class Main 
 {
 	//public static long id;
+	@SuppressWarnings("unused")
 	public static void main(String[] args)
 	{
 		/*String cad1="",cad2="s";
@@ -171,12 +172,19 @@ public class Main
 			//refri.getFruitBox().getExpiracionFrutas();//[i].getExpiracion());
 		refri.getFruitBox().getInformacionFrutas();
 		//}*/
-		Scanner lector =new Scanner(System.in);
+		/*Scanner lector =new Scanner(System.in);
 		System.out.println("Ingrese algo");
 		int algo=lector.nextInt();
 		assert algo>=60:"Estas Shavo shavo";
-		System.out.println("Value of"+algo);
+		System.out.println("Value of"+algo);*/
+		for(Mi m:Mi.values())
+		{
+			System.out.println(m);
+		}
 	}
-	
+	public enum Mi
+	{
+		LUNES, MARTES, MIERCOLES, JUEVES, SABADO, DOMINGO
+	}
 	
 }
