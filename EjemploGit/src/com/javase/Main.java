@@ -1,12 +1,13 @@
 package com.javase;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Vector;
+import java.util.Scanner;
 
+//import java.util.ArrayList;
+//import java.util.HashMap;
+//import java.util.Hashtable;
+//import java.util.Iterator;
+//import java.util.Map;
+//import java.util.Vector;
 //import com.javase.codefight.tournament;
 //import com.javase.ejemplo.herencia.Garfield;
 //import com.javase.ejemplo.herencia.Animal;
@@ -17,12 +18,12 @@ import java.util.Vector;
 //import com.javase.codefight.KathoVsSuperMario;
 //import com.javase.ejemplo.modificador.Modificadores;
 //import com.javase.ejemplo.herencia.carro.Familia;
-import com.javase.ejemplo.herencia.venta.CajaFrutas;
-import com.javase.ejemplo.herencia.venta.Fruta;
-import com.javase.ejemplo.herencia.venta.Refrigerador;
-import com.javase.ejemplo.herencia.venta.fruta.Banana;
-import com.javase.ejemplo.herencia.venta.fruta.Papaya;
-import com.javase.ejemplo.herencia.venta.fruta.Sandia;
+//import com.javase.ejemplo.herencia.venta.CajaFrutas;
+//import com.javase.ejemplo.herencia.venta.Fruta;
+//import com.javase.ejemplo.herencia.venta.Refrigerador;
+//import com.javase.ejemplo.herencia.venta.fruta.Banana;
+//import com.javase.ejemplo.herencia.venta.fruta.Papaya;
+//import com.javase.ejemplo.herencia.venta.fruta.Sandia;
 public class Main 
 {
 	//public static long id;
@@ -77,18 +78,18 @@ public class Main
 		//Familia car= new Familia();
 		//car.setVelocidad(50);
 		//System.out.println(car.getVelocidad()+" "+car.getSize()+""+car.getLlantas()[1]);
-		Refrigerador refri=new Refrigerador();
-		refri.setTemperatura(3);
+		//Refrigerador refri=new Refrigerador();
+		//refri.setTemperatura(3);
 		//System.out.println(refri.getTemperatura());
-		CajaFrutas fruitBox = new CajaFrutas();
-		Papaya papaya=new Papaya();
-		Sandia sandia=new Sandia();
-		Banana banana=new Banana();
-		ArrayList<Fruta> listaFruta=new ArrayList<Fruta>();
+		//CajaFrutas fruitBox = new CajaFrutas();
+		//Papaya papaya=new Papaya();
+		//Sandia sandia=new Sandia();
+		//Banana banana=new Banana();
+		//ArrayList<Fruta> listaFruta=new ArrayList<Fruta>();
 		/*Vector<Fruta> vect=new Vector<>();
 		vect.add(banana);
 		System.out.println(vect.elementAt(0).getExpiracion());*/
-		for (int i = 0; i < 10; i++) 
+		/*for (int i = 0; i < 10; i++) 
 		{
 			listaFruta.add(papaya);
 			listaFruta.add(sandia);
@@ -100,7 +101,7 @@ public class Main
 		listaFruta.add(sandia);
 		Iterator<Fruta> itr=listaFruta.iterator();
 		String cad="";
-		int i=0;
+		int i=0;*/
 		/*while(itr.hasNext())
 		{
 			Object itr2=(itr.next());
@@ -113,7 +114,7 @@ public class Main
 				System.out.println("Semillas: "+((Papaya)listaFruta.get(i)).getSemillas());
 			i++;
 		}*/
-		listaFruta.add(sandia);
+		//listaFruta.add(sandia);
 		//System.out.println("Cantidad Frutas: "+listaFruta.size());
 		/*HashMap<Integer, String> miMapa = new HashMap<Integer,String>();
 		miMapa.put(100, "Chana");
@@ -123,7 +124,7 @@ public class Main
 		for (Map.Entry entry : miMapa.entrySet()) 
 		{
 			System.out.println("Entrada"+entry.getKey()+" : "+entry.getValue());
-		}*/
+		}*//*
 		Hashtable<Integer, String> hashtable=new Hashtable<Integer,String>();
 		hashtable.put(100, "Chana");
 		hashtable.put(101, "Juana");
@@ -132,7 +133,7 @@ public class Main
 		for(Map.Entry entrada:hashtable.entrySet())
 		{
 			System.out.println("Llave"+entrada.getKey()+"Valor"+entrada.getValue());
-		}
+		}*/
 		//Papaya papaya=new Papaya();
 		//papaya.setExpiracion(5);
 		//Papaya papayadif=new Papaya();
@@ -170,7 +171,11 @@ public class Main
 			//refri.getFruitBox().getExpiracionFrutas();//[i].getExpiracion());
 		refri.getFruitBox().getInformacionFrutas();
 		//}*/
-		
+		Scanner lector =new Scanner(System.in);
+		System.out.println("Ingrese algo");
+		int algo=lector.nextInt();
+		assert algo>=60:"Estas Shavo shavo";
+		System.out.println("Value of"+algo);
 	}
 	
 	
