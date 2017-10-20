@@ -1,8 +1,10 @@
 package com.javase;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 import com.javase.ejemplo.herencia.venta.Clavija;
+import com.javase.ejemplo.herencia.venta.fruta.Papaya;
 import com.javase.ejemplo.lambda.Prueba;
 
 //import java.util.ArrayList;
@@ -185,7 +187,7 @@ public class Main
 			System.out.println(m);
 		}*/
 		//Sin Lambda
-		Clavija miClavija=new Clavija() 
+		/*Clavija miClavija=new Clavija() 
 		{
 			@Override
 			public void conectarse() 
@@ -207,7 +209,18 @@ public class Main
 		{
 			return algo;
 		};
-		System.out.println("Otra clase\n"+prueba.algoMas("Mica.\nMica?\nMi Cadena jajajaja"));
+		System.out.println("Otra clase\n"+prueba.algoMas("Mica.\nMica?\nMi Cadena jajajaja"));*/
+		Papaya papayas=new Papaya();
+		ArrayList<Papaya> lista=new ArrayList<Papaya>();
+		for (int i = 0; i < 1000; i++) 
+		{
+			lista.add(papayas);
+		}
+		lista.forEach(n->
+		{
+			System.out.println(n.getExpiracion());
+			System.out.println(n.getColor());
+		});
 	}
 	
 	/*
