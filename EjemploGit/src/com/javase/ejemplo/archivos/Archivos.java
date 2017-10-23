@@ -15,11 +15,8 @@ public class Archivos {
 		try
 		{
 			BufferedReader bfrd=new BufferedReader(new FileReader(archivo));
-			String s="",s1="";
-			while((s=bfrd.readLine())!=null)
-			{
-				System.out.println(s);
-			}
+			String s="";
+			bfrd.lines().forEach(s1->{System.out.println(s1);});
 		}
 		catch(FileNotFoundException e)
 		{
