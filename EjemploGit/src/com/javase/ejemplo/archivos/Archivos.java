@@ -3,10 +3,13 @@ package com.javase.ejemplo.archivos;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
+import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -51,6 +54,27 @@ public class Archivos {
 		{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}
+	}
+	public void serializarObjeto(String archivo)
+	{
+		try
+		{
+			FileOutputStream salida=new FileOutputStream(archivo);
+			ObjectOutputStream oSt=new ObjectOutputStream(salida);
+			oSt.writeObject("Today");
+			LocalDateTime tiempo = LocalDateTime.now();
+			oSt.writeObject(tiempo.toString());
+			oSt.close();
+			System.out.println(tiempo.toString());
+		}
+		catch(FileNotFoundException ex)
+		{
+			ex.printStackTrace();
+		}
+		catch (IOException ex) 
+		{
+			ex.printStackTrace();
 		}
 	}
 	
