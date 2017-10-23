@@ -1,4 +1,4 @@
-package com.javase.codefight;
+package com.codefight;
 
 public class tournament {
 
