@@ -75,8 +75,8 @@ public class Archivos {
 			writer.write(json);
 			writer.close();
 			BufferedReader br = new BufferedReader(new FileReader(archivo));
-			LocalTime obj = gson2.fromJson(br, LocalTime.class);
-			System.err.println(obj);
+			Properties obj = gson2.fromJson(br, Properties.class);
+			System.err.println(obj.getProperty("hour")+" : "+obj.getProperty("minute"));
 			System.out.println("Listones");
 		}
 		catch(FileNotFoundException ex)
