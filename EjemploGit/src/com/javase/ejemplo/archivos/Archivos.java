@@ -7,6 +7,9 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Scanner;
 
 public class Archivos {
@@ -35,15 +38,12 @@ public class Archivos {
 	}
 	public void escribirArchivos(String archivo)
 	{
-		String []datos={"Que","Pedro","Juan"+"."};
+		List<String> datos=Arrays.asList("Que","Pedro","Juan");
+		Iterator itr=datos.iterator();
 		try
 		{
 			PrintWriter printWriter=new PrintWriter(new BufferedWriter(new FileWriter(archivo)));
-			printWriter.println();
-			for(int i =0; i<datos.length;i++)
-			{
-				printWriter.println(datos[i]);
-			}
+			datos.forEach(s->{printWriter.println(itr.next());});
 			printWriter.close();
 			System.out.println("Jackeline");
 		} 
