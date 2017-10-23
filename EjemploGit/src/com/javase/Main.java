@@ -238,7 +238,8 @@ public class Main
 			System.out.println("Producto"+p.id+" : "+p.nombre+" : "+p.precio);
 		});*/
 		Archivos files=new Archivos();
-		files.leerArchivos("src/com/javase/files/lipsum.txt");
+		//files.leerArchivos("src/com/javase/files/lipsum.txt");
+		files.escribirArchivos("src/com/javase/files/prueba.txt");
 	}
 	
 	/*
