@@ -24,7 +24,7 @@ public class Archivos {
 			e.printStackTrace();
 		} catch (IOException e) 
 		{
-			System.err.println("Aun no c ler");
+			System.err.println("Aun no c ler :(");
 			e.printStackTrace();
 		}
 	}
