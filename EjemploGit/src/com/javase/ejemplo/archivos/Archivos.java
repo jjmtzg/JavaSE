@@ -2,11 +2,13 @@ package com.javase.ejemplo.archivos;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 import java.time.LocalDateTime;
@@ -64,9 +66,13 @@ public class Archivos {
 			ObjectOutputStream oSt=new ObjectOutputStream(salida);
 			oSt.writeObject("Today");
 			LocalDateTime tiempo = LocalDateTime.now();
-			oSt.writeObject(tiempo.toString());
+			oSt.writeObject(tiempo);
 			oSt.close();
-			System.out.println(tiempo.toString());
+			FileInputStream entrada=new FileInputStream(archivo);
+			ObjectInputStream iSt=new ObjectInputStream(entrada);
+			System.err.println(iSt.readObject().toString());
+			iSt.close();
+			//System.out.println(tiempo.toString());
 		}
 		catch(FileNotFoundException ex)
 		{
@@ -75,6 +81,9 @@ public class Archivos {
 		catch (IOException ex) 
 		{
 			ex.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 	
