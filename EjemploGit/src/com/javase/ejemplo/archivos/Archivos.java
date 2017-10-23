@@ -4,9 +4,10 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Archivos {
-
+	int n=0;
 	public Archivos() {
 		// TODO Auto-generated constructor stub
 	}
@@ -15,8 +16,9 @@ public class Archivos {
 		try
 		{
 			BufferedReader bfrd=new BufferedReader(new FileReader(archivo));
-			String s="";
-			bfrd.lines().forEach(s1->{System.out.println(s1);});
+			int nLinea=new Scanner(System.in).nextInt();
+			bfrd.lines().forEach(s->{n++;if(n==nLinea)System.out.println(n+" "+s);});
+			
 		}
 		catch(FileNotFoundException e)
 		{
