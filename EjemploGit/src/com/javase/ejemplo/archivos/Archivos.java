@@ -2,20 +2,25 @@ package com.javase.ejemplo.archivos;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileInputStream;
+//import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.ObjectInputStream;
+//import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Properties;
+//import java.util.Properties;
 import java.util.Scanner;
+
+import com.google.gson.Gson;
 
 public class Archivos {
 	int n=1;
@@ -60,19 +65,16 @@ public class Archivos {
 	}
 	public void serializarObjeto(String archivo)
 	{
+		Gson gson=new Gson();
+		Gson gson2=new Gson();
 		try
 		{
-			FileOutputStream salida=new FileOutputStream(archivo);
-			ObjectOutputStream oSt=new ObjectOutputStream(salida);
-			oSt.writeObject("Today");
-			LocalDateTime tiempo = LocalDateTime.now();
-			oSt.writeObject(tiempo);
-			oSt.close();
-			FileInputStream entrada=new FileInputStream(archivo);
-			ObjectInputStream iSt=new ObjectInputStream(entrada);
-			System.err.println(iSt.readObject().toString());
-			iSt.close();
-			//System.out.println(tiempo.toString());
+			LocalTime tiempo = LocalTime.now();
+			String json=gson.toJson(tiempo);
+			FileWriter writer = new FileWriter(archivo);
+			writer.write(json);
+			writer.close();
+			
 		}
 		catch(FileNotFoundException ex)
 		{
@@ -81,10 +83,7 @@ public class Archivos {
 		catch (IOException ex) 
 		{
 			ex.printStackTrace();
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		} 
 	}
 	
 }

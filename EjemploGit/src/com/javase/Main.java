@@ -240,7 +240,7 @@ public class Main
 		Archivos files=new Archivos();
 		//files.leerArchivos("src/com/javase/files/lipsum.txt");
 		//files.escribirArchivos("src/com/javase/files/prueba.txt");
-		files.serializarObjeto("src/com/javase/files/serializado.txt");
+		files.serializarObjeto("src/com/javase/files/serializado.json");
 	}
 	
 	/*
