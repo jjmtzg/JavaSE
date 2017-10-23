@@ -1,6 +1,8 @@
 package com.javase;
 
-import java.util.ArrayList;
+import com.javase.ejemplo.archivos.Archivos;
+
+/*import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
@@ -9,7 +11,7 @@ import com.javase.ejemplo.herencia.venta.Clavija;
 import com.javase.ejemplo.herencia.venta.fruta.Papaya;
 import com.javase.ejemplo.lambda.Producto;
 import com.javase.ejemplo.lambda.Prueba;
-
+*/
 //import java.util.ArrayList;
 //import java.util.HashMap;
 //import java.util.Hashtable;
@@ -35,7 +37,7 @@ import com.javase.ejemplo.lambda.Prueba;
 public class Main 
 {
 	//public static long id;
-	@SuppressWarnings("unused")
+	//@SuppressWarnings("unused")
 	public static void main(String[] args)
 	{
 		/*String cad1="",cad2="s";
@@ -223,7 +225,7 @@ public class Main
 		{
 			System.out.println(n.getExpiracion());
 			System.out.println(n.getColor());
-		});*/
+		});*//*
 		List<Producto> productos=new ArrayList<Producto>();
 		productos.add(new Producto(1,"Banana",12));
 		productos.add(new Producto(2,"Manzana",4));
@@ -234,7 +236,9 @@ public class Main
 		});
 		productos.forEach(p->{
 			System.out.println("Producto"+p.id+" : "+p.nombre+" : "+p.precio);
-		});
+		});*/
+		Archivos files=new Archivos();
+		files.leerArchivos("src/com/javase/files/lipsum.txt");
 	}
 	
 	/*
