@@ -74,7 +74,10 @@ public class Archivos {
 			FileWriter writer = new FileWriter(archivo);
 			writer.write(json);
 			writer.close();
-			
+			BufferedReader br = new BufferedReader(new FileReader(archivo));
+			LocalTime obj = gson2.fromJson(br, LocalTime.class);
+			System.err.println(obj);
+			System.out.println("Listones");
 		}
 		catch(FileNotFoundException ex)
 		{
